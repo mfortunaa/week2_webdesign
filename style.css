@@ -1,0 +1,53 @@
+.card {
+    font-size: 30px;
+    color: orange;
+    font-family: 'Arial', sans-serif;
+}
+
+#top-product {
+    color: green;
+}
+.container {
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    color: orange;
+}
+
+product-card {
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    color: orange;
+}
+
+.dashboard .card {
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    color:red;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+/*
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+*/
+    padding: 10px;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+.dashboard .card:hover {
+    color: blue;
+}
+
+.container .card {
+    font-style: italic;
+}
+
+nav a:hover {
+    color: red;
+}
